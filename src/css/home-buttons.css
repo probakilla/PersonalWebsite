@@ -1,0 +1,25 @@
+@import url('./saved-palette.css');
+
+.home-btn-div {
+    text-align: center;
+    z-index: 1000;
+}
+
+.site-btn {
+    color: var(--darkerGreen);
+    border: 1px solid;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 10px;
+    border-radius: 2px;
+    transition: transform .2s;
+}
+
+.site-btn:hover,.site-btn:visited,.site-btn:focus {
+    text-decoration: none !important;
+}
+
+.site-btn:hover {
+    color: var(--darkGreen);
+    transform: scale(1.1);
+}
