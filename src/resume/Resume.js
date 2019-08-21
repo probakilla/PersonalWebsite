@@ -1,8 +1,15 @@
 import React from 'react';
+import SiteNavbar from '../components/Navbar';
 
 class Resume extends React.Component {
     render() {
-        return <h1>RESUME</h1>;
+        return (
+            <div>
+                <SiteNavbar />
+                <br />
+                <h1>RESUME</h1>
+            </div>
+        );
     }
 }
 

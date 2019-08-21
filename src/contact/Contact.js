@@ -6,6 +6,7 @@ class Contact extends React.Component {
         return (
             <div>
                 <SiteNavbar />
+                <br />
                 <h1>Contact</h1>
             </div>
         );
