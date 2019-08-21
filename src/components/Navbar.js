@@ -6,14 +6,14 @@ import '../css/navbar.css';
 class SiteNavbar extends React.Component {
     render() {
         return (
-            <Navbar fixed="top">
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-                <Nav className="ml-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
+            <Navbar fixed='top'>
+                <Navbar.Brand href='/'>Navbar</Navbar.Brand>
+                <Nav className='ml-auto'>
+                    <Nav.Link href='/contact'>Contact</Nav.Link>
                 </Nav>
             </Navbar>
         );
     }
 }
 
-export default SiteNavbar
+export default SiteNavbar;

@@ -2,21 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import BrowserRouter from 'react-router-dom/BrowserRouter';
 import Route from 'react-router-dom/Route';
+import Switch from 'react-router-dom/Switch';
 import * as serviceWorker from './serviceWorker';
 
 import Home from './home/Home';
 import Contact from './contact/Contact';
+import NotFound from './components/NotFound';
 //https://codeburst.io/getting-started-with-react-router-5c978f70df91 tuto routes
 const routing = (
     <BrowserRouter>
         <div>
-            <Route exact path='/' component={Home} />
-            <Route path='/contact' component={Contact} />
+            <Switch>
+                <Route exact path='/' component={Home} />
+                <Route path='/contact' component={Contact} />
+                <Route component={NotFound} />
+            </Switch>
         </div>
     </BrowserRouter>
 );
-
-const NotFound = <h1>404 Not found</h1>;
 
 ReactDOM.render(routing, document.getElementById('root'));
 

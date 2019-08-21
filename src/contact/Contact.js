@@ -1,8 +1,14 @@
 import React from 'react';
+import SiteNavbar from '../components/Navbar';
 
 class Contact extends React.Component {
     render() {
-        return <h1>Contact</h1>;
+        return (
+            <div>
+                <SiteNavbar />
+                <h1>Contact</h1>
+            </div>
+        );
     }
 }
 
