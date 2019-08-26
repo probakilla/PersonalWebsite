@@ -15,7 +15,7 @@ class Contact extends React.Component {
         return (
             <div>
                 <SiteNavbar />
-                <h1 style={TmpTextStyle}>CONTACT</h1>
+                <h1 style={TmpTextStyle}>CONTACT PAGE UNDER CONSTRUCTION</h1>
             </div>
         );
     }

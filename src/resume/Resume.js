@@ -1,21 +1,16 @@
 import React from 'react';
 import SiteNavbar from '../components/Navbar';
-
-const TmpTextStyle = {
-    color: 'white',
-    position: 'absolute',
-    left: '50%',
-    top: '50%',
-    '-webkitTransform': 'translate(-50%,50%)',
-    transform: 'translate(-50%,-50%)'
-};
+import ResumeHeader from './ResumeHeader';
+import '../css/page-header.css'
+import '../css/home-buttons.css'
 
 class Resume extends React.Component {
     render() {
         return (
             <div>
                 <SiteNavbar />
-                <h1 style={TmpTextStyle}>RESUME</h1>
+                <ResumeHeader />
+                <hr className="style-seven" />
             </div>
         );
     }

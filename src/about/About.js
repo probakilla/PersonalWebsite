@@ -15,7 +15,7 @@ class About extends React.Component {
         return (
             <div>
                 <SiteNavbar />
-                <h1 style={TmpTextStyle}>ABOUT</h1>
+                <h1 style={TmpTextStyle}>ABOUT PAGE UNDER CONSTRUCTION</h1>
             </div>
         );
     }

@@ -1,0 +1,12 @@
+@import url('./saved-palette.css');
+
+.header-text {
+    margin-top: 3em;
+    color: white;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.site-btn {
+    margin-bottom: 8em;
+}
