@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/progress.css';
+import '../css/load-animation.css';
 
 class SkillProgress extends React.Component {
     constructor(props) {
@@ -13,7 +14,7 @@ class SkillProgress extends React.Component {
     render() {
         const percentage = this.state.percent + '%';
         return (
-            <li>
+            <li className='wow fadeInDown'>
                 <p className="skill-label" data-value={this.state.percent}>
                     {this.state.skill}
                 </p>

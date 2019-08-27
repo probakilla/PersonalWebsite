@@ -1,0 +1,20 @@
+.studies-row {
+    text-align: center;
+}
+
+p.study-description {
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+ul li{
+    transition: all .2s ease-in-out;
+}
+
+ul li:hover {
+    transform: scale(1.2);
+}
+
+li p {
+    font-family: Consolas,monaco,monospace;
+}

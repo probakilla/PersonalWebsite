@@ -1,3 +1,10 @@
-.section-size {
-    margin-bottom: 5%;
+.section-style {
+    min-height: 100vh;
+    height: 100px;
+}
+
+.network-icon {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
 }

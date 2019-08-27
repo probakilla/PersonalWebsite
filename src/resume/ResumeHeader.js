@@ -14,10 +14,18 @@ class ResumeHeader extends React.Component {
         document.querySelector('#skill-section').scrollIntoView();
     }
 
+    scrollToStudies() {
+        document.querySelector('#studies-section').scrollIntoView();
+    }
+
+    scrollToExperience() {
+        document.querySelector('#experience-section').scrollIntoView();
+    }
+
     render() {
         return (
-            <Container className='section-size'>
-                <p className='header-text'>
+            <Container className='section-style'>
+                <p className='header-text wow slideInLeft'>
                     Learn more <br />
                     about my skills
                 </p>
@@ -26,6 +34,12 @@ class ResumeHeader extends React.Component {
                 </Button>
                 <Button variant='link' className='site-btn' onClick={this.scrollToSkills}>
                     Skills {icons.arrowD}{' '}
+                </Button>
+                <Button variant='link' className='site-btn' onClick={this.scrollToStudies}>
+                    Studies {icons.arrowD}
+                </Button>
+                <Button variant='link' className='site-btn' onClick={this.scrollToExperience}>
+                    Experience {icons.arrowD}
                 </Button>
             </Container>
         );

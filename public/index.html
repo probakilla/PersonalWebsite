@@ -18,6 +18,9 @@
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
         <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -31,10 +34,20 @@
         <title>React App</title>
     </head>
     <body>
-            <noscript>You need to enable JavaScript to run this app.</noscript>
-            <div id="root"></div>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
         <footer>
             © Julien Pilleux. All Right Reserved.
         </footer>
     </body>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // change this if you are not using animate.css
+            offset: 0, // default
+            mobile: true, // keep it on mobile
+            live: true // track if element updates
+        });
+        wow.init();
+    </script>
 </html>
