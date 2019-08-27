@@ -1,4 +1,7 @@
 footer {
+    position: relative;
+    height: 50px;
+    clear: both;
     padding: 1% 10%;
     background-color: var(--darkerGreen);
     color: var(--lighterGreen);
@@ -8,4 +11,9 @@ footer {
 
 html {
     scroll-behavior: smooth;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 50px;
 }

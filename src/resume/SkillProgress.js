@@ -5,7 +5,7 @@ class SkillProgress extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            language: props.language,
+            skill: props.skill,
             percent: props.percent
         }
     }
@@ -15,11 +15,11 @@ class SkillProgress extends React.Component {
         return (
             <li>
                 <p className="skill-label" data-value={this.state.percent}>
-                    {this.state.language}
+                    {this.state.skill}
                 </p>
                 <span>
-                    <progress max='100' value={this.state.percent} class='html5'>
-                        <div class='progress-bar'>
+                    <progress max='100' value={this.state.percent} className='html5'>
+                        <div className='progress-bar'>
                             <span style={{ width: {percentage} }}>{this.state.percent}%</span>
                         </div>
                     </progress>

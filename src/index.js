@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import BrowserRouter from 'react-router-dom/BrowserRouter';
-import Route from 'react-router-dom/Route';
-import Switch from 'react-router-dom/Switch';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 import Home from './home/Home';

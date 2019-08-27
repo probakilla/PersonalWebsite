@@ -11,31 +11,40 @@ import '../css/page-header.css';
 class TechnicalSkills extends React.Component {
     render() {
         return (
-            <Container className='section-size site-scroll'>
+            <Container className='section-size'>
                 <Row>
                     <Col sm='12' md='4' lg='4'>
-                        <h1 className='section-header'>Languages</h1>
+                        <h1 className='section-header'>languages</h1>
                         <ul>
-                            <SkillProgress language='C/C++' percent='80' />
-                            <SkillProgress language='Python' percent='70' />
-                            <SkillProgress language='NodeJs' percent='65' />
-                            <SkillProgress language='.NET' percent='60' />
-                            <SkillProgress language='Bash' percent='50' />
-                            <SkillProgress language='Java' percent='40' />
+                            <SkillProgress skill='C/C++' percent='80' />
+                            <SkillProgress skill='Python' percent='70' />
+                            <SkillProgress skill='NodeJs' percent='65' />
+                            <SkillProgress skill='.NET (C#/VbNet)' percent='60' />
+                            <SkillProgress skill='SQL' percent='60' />
+                            <SkillProgress skill='Bash' percent='50' />
+                            <SkillProgress skill='Java' percent='40' />
                         </ul>
                     </Col>
                     <Col sm='12' md='4' lg='4'>
                         <h1 className='section-header'>Framworks</h1>
                         <ul>
-                            <SkillProgress language='React' percent='70' />
-                            <SkillProgress language='ASP NET MVC' percent='60' />
-                            <SkillProgress language='.NET Core' percent='60' />
-                            <SkillProgress language='QT' percent='30' />
-                            <SkillProgress language='JavaFX' percent='30' />
+                            <SkillProgress skill='React' percent='70' />
+                            <SkillProgress skill='ASP NET MVC' percent='60' />
+                            <SkillProgress skill='.NET Core' percent='60' />
+                            <SkillProgress skill='Apache Hadoop' percent='40' />
+                            <SkillProgress skill='QT' percent='30' />
+                            <SkillProgress skill='JavaFX' percent='30' />
                         </ul>
                     </Col>
                     <Col sm='12' md='4' lg='4'>
-                        <h1 className='section-header'>Programs & OS</h1>
+                        <h1 className='section-header'>Other skills</h1>
+                        <ul>
+                            <SkillProgress skill='Design Patterns' percent='90' />
+                            <SkillProgress skill='Linux' percent='80' />
+                            <SkillProgress skill='Agile Development' percent='70' />
+                            <SkillProgress skill='Windows' percent='50' />
+                            <SkillProgress skill='NoSql (MongoDB)' percent='50' />
+                        </ul>
                     </Col>
                 </Row>
             </Container>
