@@ -14,7 +14,7 @@ class SkillProgress extends React.Component {
         const percentage = this.state.percent + '%';
         return (
             <li>
-                <p className="skill-label" style={{ width: '50%' }} data-value={this.state.percent}>
+                <p className="skill-label" data-value={this.state.percent}>
                     {this.state.language}
                 </p>
                 <span>
@@ -24,6 +24,7 @@ class SkillProgress extends React.Component {
                         </div>
                     </progress>
                 </span>
+                <hr className='skill-separator' />
             </li>
         );
     }

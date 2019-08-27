@@ -108,6 +108,8 @@ p[data-value] {
     color: var(--darkerGreen);
     font-weight: 600;
     font-family: Consolas,monaco,monospace;
+    margin-left: 5%;
+    width: 90%;
 }
 
 /* The percentage will automatically fall in place as soon as we make the width fluid. Now making widths fluid. */
@@ -195,4 +197,8 @@ p[data-value]:after {
 
 .skill-label {
     margin-bottom: 0;
+}
+
+hr.skill-separator {
+    margin: .3rem 0;
 }
