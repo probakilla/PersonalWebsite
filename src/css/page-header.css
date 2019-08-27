@@ -10,3 +10,7 @@
 .site-btn {
     margin-bottom: 8em;
 }
+
+.site-scroll {
+    scroll-behavior: smooth;
+}

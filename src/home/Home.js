@@ -1,12 +1,14 @@
 import React from 'react';
 import SiteNavbar from '../components/Navbar';
 import HomeButtons from './HomeButtons';
+
 import '../css/Home.css';
+import '../css/sizes.css';
 
 class Home extends React.Component {
     render() {
         return (
-            <div>
+            <div className="section-size">
                 <SiteNavbar />
                 <div className='area'>
                     <ul className='circles'>
