@@ -16,22 +16,22 @@ describe('Navbar tests', () => {
 
     it('Testing home button rendering', () => {
         const { getByText } = render(<SiteNavbar />);
-        expect(getByText('Home')).toBeInTheDocument();
+        expect(getByText('Home')).toBeVisible();
     });
 
     it('Testing about rendering', () => {
         const { getByText } = render(<SiteNavbar />);
-        expect(getByText('About')).toBeInTheDocument();
+        expect(getByText('About')).toBeVisible();
     });
 
     it('Testing resume button rendering', () => {
         const { getByText } = render(<SiteNavbar />);
-        expect(getByText('Resume')).toBeInTheDocument();
+        expect(getByText('Resume')).toBeVisible();
     });
 
     it('Testing contact button rendering', () => {
         const { getByText } = render(<SiteNavbar />);
-        expect(getByText('Contact')).toBeInTheDocument();
+        expect(getByText('Contact')).toBeVisible();
     });
 
     it('Click home button', () => {
