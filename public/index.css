@@ -1,12 +1,25 @@
-footer {
-    position: relative;
+#footer {
+    position: absolute;
+    bottom: 0;
     height: 50px;
-    clear: both;
+    width: 100%;
     padding: 1% 10%;
     background-color: var(--darkerGreen);
     color: var(--lighterGreen);
     text-align: center;
     font-size: 12px;
+}
+
+#container {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#root {
+    padding-bottom: 50px;
 }
 
 *{
@@ -20,7 +33,7 @@ p{
 
 html,body{
     height: 100%;
-    line-height: 0;
+    position: relative;
 }
 
 html {

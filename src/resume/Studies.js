@@ -82,7 +82,6 @@ class Studies extends React.Component {
                                 src='https://img.icons8.com/ios-filled/2x/git.png'
                                 alt='Github repos'
                             />
-                            <hr />
                         </Col>
                     </Row>
                 </Container>

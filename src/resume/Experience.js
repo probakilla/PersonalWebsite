@@ -7,7 +7,7 @@ import ExperienceEntry from './ExperienceEntry';
 class Experience extends React.Component {
     render() {
         return (
-            <Container className="section-style">
+            <Container>
                 <Row>
                     <Col sm='12' md='4' lg='3'>
                         <h2 className='wow slideInLeft'>Work Experience</h2>
