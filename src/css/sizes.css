@@ -7,4 +7,12 @@
     height: 32px;
     width: 32px;
     cursor: pointer;
+    margin: 0 5px;
+}
+
+.network-icon-big {    
+    height: 64px;
+    width: 64px;
+    cursor: pointer;
+    margin: 0 10px;
 }

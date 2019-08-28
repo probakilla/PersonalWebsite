@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FadedLI from './FadedLI';
+import NetworkIcon from '../components/NetworkIcon';
 
 import '../css/studies.css';
 import '../css/load-animation.css';
@@ -75,16 +76,12 @@ class Studies extends React.Component {
                 <Container>
                     <Row className='studies-row'>
                         <Col sm='12'>
-                            <h2>
-                                You can find all my school projects (and more) at my github account
-                            </h2>
-                            <a href='https://github.com/probakilla?tab=repositories'>
-                                <img
-                                    className='network-icon'
-                                    src='https://img.icons8.com/ios-filled/2x/git.png'
-                                    alt='GitHub repos'
-                                />
-                            </a>
+                            <h2>You can find all my school projects (and more) at my github account</h2>
+                            <NetworkIcon
+                                href='https://github.com/probakilla?tab=repositories'
+                                src='https://img.icons8.com/ios-filled/2x/git.png'
+                                alt='Github repos'
+                            />
                             <hr />
                         </Col>
                     </Row>

@@ -6,8 +6,8 @@ class HomeButtons extends React.Component {
     render() {
         return (
             <div className='home-btn-div'>
-                <Button variant='link' className='site-btn' href='/about'>
-                    About Me
+                <Button variant='link' className='site-btn' href='/contact'>
+                    Contact Me
                 </Button>
                 <Button variant='link' className='site-btn' href='/resume'>
                     My Resume

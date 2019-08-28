@@ -19,11 +19,6 @@ describe('Navbar tests', () => {
         expect(getByText('Home')).toBeVisible();
     });
 
-    it('Testing about rendering', () => {
-        const { getByText } = render(<SiteNavbar />);
-        expect(getByText('About')).toBeVisible();
-    });
-
     it('Testing resume button rendering', () => {
         const { getByText } = render(<SiteNavbar />);
         expect(getByText('Resume')).toBeVisible();
@@ -37,11 +32,6 @@ describe('Navbar tests', () => {
     it('Click home button', () => {
         const { getByText } = render(<SiteNavbar />);
         expect(getByText('Home')).toHaveAttribute('href', '/');
-    });
-
-    it('Click about button', () => {
-        const { getByText } = render(<SiteNavbar />);
-        expect(getByText('About')).toHaveAttribute('href', '/about');
     });
 
     it('Click contact button', () => {
