@@ -1,9 +1,13 @@
 language: node_js
+addons:
+  sonarcloud:
+    organization: "probakilla-github"
 node_js:
   - 8
 cache:
   directories:
     - node_modules
 script:
+  - sonar-scanner
   - npm run build
   - npm test
