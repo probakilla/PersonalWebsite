@@ -3,10 +3,6 @@ import Button from 'react-bootstrap/Button';
 import '../css/home-buttons.css';
 
 class HomeButtons extends React.Component {
-    onClickFct = () => {
-        alert('click');
-    };
-
     render() {
         return (
             <div className='home-btn-div'>

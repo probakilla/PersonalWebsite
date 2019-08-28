@@ -25,7 +25,6 @@ class SkillProgress extends React.Component {
                         </div>
                     </progress>
                 </span>
-                <hr className='skill-separator' />
             </li>
         );
     }

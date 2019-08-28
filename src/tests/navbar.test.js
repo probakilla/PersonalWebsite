@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import SiteNavbar from '../components/Navbar';
 import { render } from '@testing-library/react';
-import { get } from 'https';
 
 describe('Navbar tests', () => {
     it('Render without crashing', () => {
