@@ -2,13 +2,13 @@
 
 .header-text {
     margin-top: 3em;
-    color: white;
+    color: var(--lighterGreen);
     font-size: 4em;
     font-weight: 600;
 }
 
 .site-btn {
-    margin: 4px 4px;
+    margin: 5px 5px;
 }
 
 .site-scroll {

@@ -30,16 +30,16 @@ class ResumeHeader extends React.Component {
                     about my skills
                 </p>
                 <Button variant='link' className='site-btn' href={CvPath}>
-                    Download resume {icons.arrowDoubleR}
+                   {icons.arrowDoubleR}  Download resume {icons.arrowDoubleL}
                 </Button>
                 <Button variant='link' className='site-btn' onClick={this.scrollToSkills}>
-                    Skills {icons.arrowD}{' '}
+                {icons.arrowD} Skills {icons.arrowD}
                 </Button>
                 <Button variant='link' className='site-btn' onClick={this.scrollToStudies}>
-                    Studies {icons.arrowD}
+                {icons.arrowD} Studies {icons.arrowD}
                 </Button>
                 <Button variant='link' className='site-btn' onClick={this.scrollToExperience}>
-                    Experience {icons.arrowD}
+                {icons.arrowD} Experience {icons.arrowD}
                 </Button>
             </Container>
         );

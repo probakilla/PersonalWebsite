@@ -14,6 +14,10 @@ footer {
     padding: 0;
 }
 
+p{
+    color: var(--lighterGreen)
+}
+
 html,body{
     height: 100%;
     line-height: 0;
@@ -28,7 +32,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0)
+    background: var(--lightGreen)
 }
 
 ::-webkit-scrollbar-thumb {

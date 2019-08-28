@@ -12,6 +12,7 @@ body{
     width: 100%;
     position: absolute;
     top:50vh;
+    text-align: center;
 }
 
 .context h1{
@@ -19,7 +20,6 @@ body{
     color: #fff;
     font-size: 65px;
 }
-
 
 .area{
     background: var(--lightGreen);

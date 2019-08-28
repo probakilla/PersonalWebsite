@@ -10,6 +10,6 @@
 }
 
 .site-btn:hover {
-    color: var(--darkGreen);
+    color: var(--darkerPink);
     transform: scale(1.1);
 }
