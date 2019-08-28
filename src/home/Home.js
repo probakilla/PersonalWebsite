@@ -1,5 +1,5 @@
 import React from 'react';
-import SiteNavbar from '../components/Navbar';
+import SiteNavbar from '../components/SiteNavbar';
 import HomeButtons from './HomeButtons';
 
 import '../css/Home.css';

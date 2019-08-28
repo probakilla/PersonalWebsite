@@ -1,5 +1,5 @@
 import React from 'react';
-import SiteNavbar from '../components/Navbar';
+import SiteNavbar from '../components/SiteNavbar';
 
 const TmpTextStyle = {
     color: 'white',

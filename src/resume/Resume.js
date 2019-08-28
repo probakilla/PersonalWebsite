@@ -1,5 +1,5 @@
 import React from 'react';
-import SiteNavbar from '../components/Navbar';
+import SiteNavbar from '../components/SiteNavbar';
 import ResumeHeader from './ResumeHeader';
 import TechnicalSkills from './TechnicalSkills';
 import Studies from './Studies';
