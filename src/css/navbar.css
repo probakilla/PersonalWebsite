@@ -1,5 +1,41 @@
 .navbar {
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
     color: white;
     position: absolute;
+}
+
+.nav-elements {
+    width: 20%;
+}
+
+.dropdown {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: var(--lighterGreen);
+}
+
+.dropdown-item {
+    transition: transform 0.2s;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0);
+    transform: scale(1.1);
+}
+
+.dropdown:hover {
+    color: var(--darkerPink);
+}
+
+.dropdown:hover,
+.dropdown:visited,
+.dropdown:focus {
+    text-decoration: none !important;
 }
