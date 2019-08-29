@@ -10,7 +10,15 @@ import '../css/studies.css';
 import '../css/headings.css';
 import '../css/contacts.css';
 
+const ImgPath = process.env.PUBLIC_URL + 'imgs/';
+
 class ContactHeader extends React.Component {
+    constructor(props) {
+        super(props);
+        this.linkedinIcon = ImgPath + 'linkedin.png';
+        this.gitIcon = ImgPath + 'git.png';
+    }
+
     render() {
         return (
             <Container>
@@ -26,11 +34,11 @@ class ContactHeader extends React.Component {
                             <Col className='wow fadeInUp icon-row' sm='12'>
                                 <NetworkIcon
                                     href='https://github.com/probakilla'
-                                    src='https://img.icons8.com/ios-filled/2x/git.png'
+                                    src={this.gitIcon}
                                     alt='Github'
                                 />
                                 <NetworkIcon
-                                    src='https://sguru.org/wp-content/uploads/2018/02/linkedin-png-linkedin-icon-1600-300x300.png'
+                                    src={this.linkedinIcon}
                                     href='www.linkedin.com/in/julien-pilleux-778134161'
                                     alt='linkdin'
                                 />

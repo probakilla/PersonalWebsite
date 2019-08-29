@@ -10,7 +10,13 @@ import '../css/load-animation.css';
 import '../css/sizes.css';
 import '../css/headings.css';
 
+const ImgPath = process.env.PUBLIC_URL + 'imgs/';
+
 class Studies extends React.Component {
+    constructor(props) {
+        super(props);
+        this.gitIcon = ImgPath + 'git.png';
+    }
     render() {
         return (
             <Container className=''>
@@ -79,7 +85,7 @@ class Studies extends React.Component {
                             <h2>You can find all my school projects (and more) at my github account</h2>
                             <NetworkIcon
                                 href='https://github.com/probakilla?tab=repositories'
-                                src='https://img.icons8.com/ios-filled/2x/git.png'
+                                src={this.gitIcon}
                                 alt='Github repos'
                             />
                         </Col>
