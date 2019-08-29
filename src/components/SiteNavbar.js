@@ -10,9 +10,9 @@ class SiteNavbar extends React.Component {
     render() {
         return (
             <Navbar fixed='top'>
-                <Navbar.Brand className='mr-auto nav-elements' href='/'>
+                <Link className='navbar-brand' to='/'>
                     Home
-                </Navbar.Brand>
+                </Link>
                 <Nav className='ml-auto nav-element'>
                     <Dropdown>
                         <Dropdown.Toggle className='dropdown' variant='link'>
@@ -27,10 +27,12 @@ class SiteNavbar extends React.Component {
                             </Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
-                    <Link to='/resume'>Resume</Link>
-                    <Link to='/contact'>Contact</Link>
-                    <Nav.Link href='/resume'>Resume</Nav.Link>
-                    <Nav.Link href='/contact'>Contact</Nav.Link>
+                    <Link className='nav-link' to='/resume'>
+                        Resume
+                    </Link>
+                    <Link className='nav-link' to='/contact'>
+                        Contact
+                    </Link>
                 </Nav>
             </Navbar>
         );

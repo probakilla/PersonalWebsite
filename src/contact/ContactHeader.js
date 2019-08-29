@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import NetworkIcon from '../components/NetworkIcon';
+import { Link } from 'react-router-dom';
 
 import '../css/sizes.css';
 import '../css/studies.css';
@@ -43,9 +44,9 @@ class ContactHeader extends React.Component {
                         </Row>
                         <Row className='wow fadeInUp'>
                             <Col>
-                                <Button variant='link' className='site-btn' href='/resume'>
+                                <Link className='btn btn-link site-btn' to='/resume'>
                                     My Resume
-                                </Button>
+                                </Link>
                             </Col>
                         </Row>
                     </Col>
