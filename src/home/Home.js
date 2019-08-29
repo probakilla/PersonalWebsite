@@ -8,7 +8,7 @@ import '../css/sizes.css';
 class Home extends React.Component {
     render() {
         return (
-            <div className="section-size">
+            <div>
                 <SiteNavbar />
                 <div className='area'>
                     <ul className='circles'>
@@ -25,7 +25,7 @@ class Home extends React.Component {
                     </ul>
                 </div>
                 <div className='context'>
-                    <h1>Developper</h1>
+                    <h1>Welcome</h1>
                     <HomeButtons />
                 </div>
             </div>

@@ -13,7 +13,7 @@ import '../css/contacts.css';
 class ContactHeader extends React.Component {
     render() {
         return (
-            <Container className='section-style'>
+            <Container>
                 <Row>
                     <Col sm='12' md='6' lg='6'>
                         <p className='wow slideInLeft header-text'>Want to contact me ?</p>

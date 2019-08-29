@@ -11,7 +11,7 @@ body{
 .context {
     width: 100%;
     position: absolute;
-    top:50vh;
+    top:40%;
     text-align: center;
 }
 
@@ -25,7 +25,6 @@ body{
     background: var(--lightGreen);
     background: linear-gradient(to left, var(--lightGreen), var(--darkerGreen));
     width: 100%;
-    height:100vh;
 }
 
 .circles{
