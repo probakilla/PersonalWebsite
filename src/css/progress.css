@@ -77,7 +77,7 @@ progress[value]::-moz-progress-bar {
             rgba(0, 0, 0, 0.1) 66%,
             transparent 66%
         ),
-        -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)), -moz-linear-gradient(left, #09c, #f44);
+        -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)), -moz-linear-gradient(left, var(--lightPink), var(--darkPink));
 
     background-size: 35px 20px, 100% 100%, 100% 100%;
     border-radius: 3px;
@@ -97,7 +97,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .progress-bar span {
-    background-color: royalblue;
+    background-color: var(--mediumPink);
     border-radius: 3px;
     display: block;
     text-indent: -9999px;
@@ -135,36 +135,6 @@ p[data-value]:after {
         -webkit-linear-gradient(left, var(--lightPink), var(--darkPink));
 }
 
-.css3::-webkit-progress-value,
-.php::-webkit-progress-value {
-    /* Gradient background with Stripes */
-    background-image: -webkit-linear-gradient(
-            135deg,
-            transparent,
-            transparent 33%,
-            rgba(0, 0, 0, 0.1) 33%,
-            rgba(0, 0, 0, 0.1) 66%,
-            transparent 66%
-        ),
-        -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
-        -webkit-linear-gradient(left, #09c, #ff0);
-}
-
-.jquery::-webkit-progress-value,
-.node-js::-webkit-progress-value {
-    /* Gradient background with Stripes */
-    background-image: -webkit-linear-gradient(
-            135deg,
-            transparent,
-            transparent 33%,
-            rgba(0, 0, 0, 0.1) 33%,
-            rgba(0, 0, 0, 0.1) 66%,
-            transparent 66%
-        ),
-        -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
-        -webkit-linear-gradient(left, #09c, #690);
-}
-
 /* Similarly, for Mozillaa. Unfortunately combining the styles for different browsers will break every other browser. Hence, we need a separate block. */
 
 .html5::-moz-progress-bar,
@@ -178,7 +148,7 @@ p[data-value]:after {
             rgba(0, 0, 0, 0.1) 66%,
             transparent 66%
         ),
-        -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)), -moz-linear-gradient(left, #09c, #f44);
+        -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)), -moz-linear-gradient(left, var(--lightPink), var(--darkPink));
 }
 
 .jquery::-moz-progress-bar,
@@ -192,7 +162,7 @@ p[data-value]:after {
             rgba(0, 0, 0, 0.1) 66%,
             transparent 66%
         ),
-        -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)), -moz-linear-gradient(left, #09c, #690);
+        -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)), -moz-linear-gradient(left, var(--lightPink), var(--darkPink));
 }
 
 .skill-label {

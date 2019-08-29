@@ -26,7 +26,7 @@ class TechnicalSkills extends React.Component {
                         </ul>
                     </Col>
                     <Col sm='12' md='4' lg='4'>
-                        <h1 className='section-header'>Framworks</h1>
+                        <h1 className='section-header'>Frameworks</h1>
                         <ul>
                             <SkillProgress skill='React' percent='70' />
                             <SkillProgress skill='ASP NET MVC' percent='60' />
