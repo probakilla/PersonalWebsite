@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 import '../css/navbar.css';
@@ -26,6 +27,8 @@ class SiteNavbar extends React.Component {
                             </Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
+                    <Link to='/resume'>Resume</Link>
+                    <Link to='/contact'>Contact</Link>
                     <Nav.Link href='/resume'>Resume</Nav.Link>
                     <Nav.Link href='/contact'>Contact</Nav.Link>
                 </Nav>
