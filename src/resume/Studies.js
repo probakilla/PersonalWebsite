@@ -29,7 +29,7 @@ class Studies extends React.Component {
                 </Row>
                 <Row className='studies-row'>
                     <Col sm='12' md='12' lg='12'>
-                        <h1 className='study-title wow fadeInDown'>Computer Science License</h1>
+                        <h1 className='study-title wow fadeInDown'>Degree in Computer Science</h1>
                         <h2 className=' wow fadeInDown'>2014 - 2017</h2>
                         <p className='study-description wow fadeInDown'>Universitée de Bordeaux, France.</p>
                     </Col>

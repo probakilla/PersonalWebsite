@@ -39,7 +39,7 @@ class ContactHeader extends React.Component {
                                 />
                                 <NetworkIcon
                                     src={this.linkedinIcon}
-                                    href='www.linkedin.com/in/julien-pilleux-778134161'
+                                    href='https://www.linkedin.com/in/julien-pilleux-778134161'
                                     alt='linkdin'
                                 />
                             </Col>
