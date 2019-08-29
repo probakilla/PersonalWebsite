@@ -14,7 +14,7 @@ class TechnicalSkills extends React.Component {
             <Container className='section-size'>
                 <Row>
                     <Col sm='12' md='4' lg='4'>
-                        <h1 className='section-header'>languages</h1>
+                        <h1 className='section-header'>Languages</h1>
                         <ul>
                             <SkillProgress skill='C/C++' percent='80' />
                             <SkillProgress skill='Python' percent='70' />
