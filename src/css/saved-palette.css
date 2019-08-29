@@ -1,8 +1,8 @@
 :root {
     --darkerGreen: #123A00;
-    --darkGreen: #357400;
-    --mediumGreen: #4BA500;
-    --lightGreen: #74D027;
+    --darkGreen: #295c00;
+    --mediumGreen: rgb(60, 134, 0);
+    --lightGreen: rgb(105, 194, 32);
     --lighterGreen: #C4E9A6;
 
     --darkerPink: #2A000D;
